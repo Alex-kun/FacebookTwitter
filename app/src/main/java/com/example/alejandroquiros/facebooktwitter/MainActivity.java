@@ -6,11 +6,14 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.Toast;
 
+import com.facebook.AccessToken;
 import com.facebook.CallbackManager;
 import com.facebook.FacebookCallback;
 import com.facebook.FacebookException;
 import com.facebook.login.LoginResult;
 import com.facebook.login.widget.LoginButton;
+import com.google.firebase.auth.AuthCredential;
+import com.google.firebase.auth.FacebookAuthProvider;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -37,6 +40,8 @@ public class MainActivity extends AppCompatActivity {
             public void onSuccess(LoginResult loginResult) {
                 // App code
                 Toast.makeText(MainActivity.this, "LOGIN CORRECTO", Toast.LENGTH_SHORT).show();
+                //handleFacebookAccessToken(loginResult.getAccessToken());
+
             }
 
             @Override

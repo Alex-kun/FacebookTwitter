@@ -2,4 +2,7 @@
     <string name="app_name">Facebook&amp;Twitter</string>
     <string name="facebook_app_id">388307381616433</string>
     <string name="fb_login_protocol_scheme">fb388307381616433</string>
+
+    <string name="com.twitter.sdk.android.CONSUMER_KEY">RjfwtaxiYGWMgT4TpZhJPl7rv</string>
+    <string name="com.twitter.sdk.android.CONSUMER_SECRET">MqN6uWTmzVrgrbZcGDGBpwPRwgYnR1eYBhwe7jRyHS5nUAlHcW</string>
 </resources>

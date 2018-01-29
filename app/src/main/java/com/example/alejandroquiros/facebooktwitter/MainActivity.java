@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
 
                 TwitterSession session = TwitterCore.getInstance().getSessionManager().getActiveSession();
                 TwitterAuthToken authToken = session.getAuthToken();
-                String TwitterToken = authToken.token;
+                String token = authToken.token;
                 String secret = authToken.secret;
             }
 
